@@ -1,0 +1,54 @@
+
+Informe del Sistema de Gestión de Verduras
+Introducción:
+
+Este informe documenta el sistema de gestión de verduras desarrollado en Java. El sistema permite registrar, modificar y consultar información sobre diferentes tipos de verduras.
+
+Funcionalidades del sistema:
+
+Registro de verduras: Permite agregar nuevas verduras al sistema, incluyendo información como nombre, color, calorías y si necesita ser cocinada.
+Modificación de verduras: Permite editar la información de las verduras ya registradas en el sistema.
+Consulta de verduras: Permite buscar y mostrar información sobre las verduras registradas en el sistema.
+Filtrado por color: Permite mostrar solo las verduras que sean de un color específico.
+Pruebas realizadas:
+
+Se realizaron pruebas para verificar las funcionalidades del sistema, incluyendo:
+
+Registro de diferentes tipos de verduras.
+Modificación de la información de las verduras registradas.
+Consulta de verduras por nombre, color y otros criterios.
+Filtrado por color para mostrar solo las verduras verdes.
+No introducir ninguna verdura verde para ver si el sistema muestra el mensaje de que no hay ninguna.
+Resultados obtenidos:
+
+Las pruebas realizadas fueron exitosas. El sistema funciona correctamente y permite realizar las tareas de gestión de verduras de forma eficiente.
+
+A continuación se presenta un resumen de los resultados de las pruebas:
+
+* Funcionalidad	Resultado
+Registro de verduras	Correcto
+Modificación de verduras	Correcto
+Consulta de verduras	Correcto
+Filtrado por color	Correcto
+No introducir ninguna verdura verde para ver si el sistema muestra el mensaje de que no hay ninguna. Correcto
+Conclusiones:
+
+El sistema de gestión de verduras desarrollado es una herramienta útil para registrar, modificar y consultar información sobre diferentes tipos de verduras. El sistema ha sido probado y funciona correctamente.
+
+Recomendaciones:
+
+Se recomienda realizar las siguientes mejoras al sistema:
+
+Implementar una interfaz gráfica de usuario para facilitar el uso del sistema.
+Permitir la carga de imágenes de las verduras.
+Implementar un sistema de autenticación para controlar el acceso al sistema.
+Permitir la exportación de datos a diferentes formatos.
+Código fuente:
+
+El código fuente del sistema se encuentra disponible en el siguiente enlace: [Insertar enlace al código fuente]
+
+
+
+Equipo de desarrollo:
+
+Juan Antonio Garcia Galindo

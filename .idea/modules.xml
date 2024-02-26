@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.JavaBasico/Semana1/Clase1Dia2/Clase1Dia2.iml" filepath="$PROJECT_DIR$/1.JavaBasico/Semana1/Clase1Dia2/Clase1Dia2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.JavaBasico/Semana1/Clase2Dia3/Clase2Dia3.iml" filepath="$PROJECT_DIR$/1.JavaBasico/Semana1/Clase2Dia3/Clase2Dia3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.JavaBasico/Semana1/Clase3Dia4/Clase3Dia4.iml" filepath="$PROJECT_DIR$/1.JavaBasico/Semana1/Clase3Dia4/Clase3Dia4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HBPROYECTOSCODING.iml" filepath="$PROJECT_DIR$/.idea/HBPROYECTOSCODING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.JavaBasico/Semana2/Semana2.iml" filepath="$PROJECT_DIR$/1.JavaBasico/Semana2/Semana2.iml" />
+    </modules>
+  </component>
+</project>
