@@ -23,17 +23,18 @@ public class Main {
             switch (tipo){
                 case "Auto":
                     Auto a = (Auto) v;
-                    System.out.println(" Capacidad bateria: "+a.getCapacidadBateria()+ " Autonomia: "+a.getAutonomia());
+                    System.out.println(" Capacidad bateria: "+a.getCapacidadBateria()+ " mah. Autonomia: "+a.getAutonomia()+ " hs");
                     break;
                 case "Camioneta":
                     Camioneta c = (Camioneta) v;
-                    System.out.println(" Capacidad de tanque "+ c.getCapacidadTanque()+ " consumoCombustible: "+ c.getConsumoCombustible());
+                    System.out.println(" Capacidad de tanque "+ c.getCapacidadTanque()+ " litros. ConsumoCombustible: "+ c.getConsumoCombustible()+" litros cada 100Km");
                     break;
                 case "Moto":
                     Moto m = (Moto) v;
-                    System.out.println(" Cilindrada: "+m.getCilindrada()+ " Tipo Motor: " +m.getTipoMotor());
+                    System.out.println(" Cilindrada: "+m.getCilindrada()+ "cc. Tipo Motor: " +m.getTipoMotor());
                     break;
                 default:
+                    System.out.println("No se reconoce el tipo de vehiculo " +tipo);
 
             }
 
