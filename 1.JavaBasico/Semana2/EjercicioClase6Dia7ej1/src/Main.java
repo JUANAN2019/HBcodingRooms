@@ -19,7 +19,7 @@ public class Main {
 
             String tipo = String.valueOf(v.getClass()).substring(6);
 
-            System.out.print("Id: "+v.getId()+" Placa: "+v.getPlaca()+" Marca: "+v.getMarca()+" Modelo: "+v.getModelo()+" Año: "+v.getAño()+" Costo: "+v.getCosto()+" Antiguedad: "+v.calcularAntiguedad()+ " años.");
+            System.out.print("Id: "+v.getId()+" Placa: "+v.getPlaca()+" Marca: "+v.getMarca()+" Modelo: "+v.getModelo()+" Año: "+v.getAño()+ " Costo: "+v.getCosto()+" Antiguedad: "+v.calcularAntiguedad()+ " años.");
             switch (tipo){
                 case "Auto":
                     Auto a = (Auto) v;
