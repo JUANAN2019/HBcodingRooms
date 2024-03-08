@@ -26,7 +26,7 @@ public class EjercicioClase8Dia9JPA {
         //Se envia el objeto para que lo PERSISTA en la BD
         controlPersis.crearPlato(new Plato("Filete con salsa", "Freir el filete con ajo y agregar salsa", 13));
         controlPersis.crearPlato(new Plato("Pasta con nueces", "Hervir pasta agregar salsa y nueces", 14));
-         controlPersis.crearPlato(new Plato("Pollo frito ", "Freir pollo ", 11));
+        controlPersis.crearPlato(new Plato("Pollo frito ", "Freir pollo ", 11));
         
         //Se crean dos personas más
         

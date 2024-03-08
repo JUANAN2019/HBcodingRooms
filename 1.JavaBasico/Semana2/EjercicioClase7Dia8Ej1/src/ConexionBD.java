@@ -6,6 +6,9 @@ import java.sql.Statement;
 public class ConexionBD {
 
     public static void main(String[] args) {
+
+
+
         String url = "jdbc:mysql://localhost:3306/clinica"; // URL de la base de datos "clinica"
         String usuario = "root"; // Nombre de usuario de la base de datos
         String contraseña = ""; // Contraseña de la base de datos
@@ -41,3 +44,4 @@ public class ConexionBD {
         }
     }
 }
+

@@ -1,4 +1,6 @@
-import java.sql.Connection;
+public class mimain {
+}
+/*    import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -27,6 +29,7 @@ public class Main {
             calificacion = tecladoDouble.nextDouble();
             System.out.println("Los datos del estudiante son los siguientes:" );
 
+
         } else if (opcion == 2) {
 
         }else{
@@ -36,3 +39,4 @@ public class Main {
 
     }
 }
+}*/
