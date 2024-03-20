@@ -7,11 +7,12 @@ public class Main {
 
         //Tarea tarea = new Tarea("Tarea Principal:", "Diseño de la aplicacion");
         Tarea proyecto = new Tarea("Proyecto:", "Desarrolo de software");
-
+        Tarea principal1 =   new Tarea("Tarea Principal:", "Diseño de la aplicacion");
         List<Tarea> tareasPrincipales = Arrays.asList(
-                new Tarea("Tarea Principal:", "Diseño de la aplicacion"),
-                new Tarea("Tarea Principal:", "Implementacion del Codigo"),
-                new Tarea("Tarea Principal:", "Pruebas y Depuracion"),
+               // new Tarea("Proyecto", "Desarrolo de software"),
+                new Tarea("Tarea Principal", "Diseño de la aplicacion"),
+                new Tarea("Tarea Principal", "Implementacion del Codigo"),
+                new Tarea("Tarea Principal", "Pruebas y Depuracion"),
                 new Tarea("Subtarea Diseño", "Prototipo"),
                 new Tarea("Subtarea Diseño", "Interfaz"),
                 new Tarea("Subtarea Diseño", "Documentar requisitos"),
@@ -61,8 +62,10 @@ public class Main {
         );
 
         AccionesTareas acciones = new AccionesTareas();
+        acciones.agregarTareasRecursivamente(proyecto, principal1.getNombre() );
+        //acciones.agregarTareas(proyecto, tareasPrincipales);
 
-        acciones.agregarTareas(proyecto, tareasPrincipales);
+        //acciones.recorrerTareas(proyecto);
        // acciones.agregarTareasRecursivas(proyecto, 0);
         //System.out.println(proyecto);
         //  System.out.println("--"+ tarea.getTipo()+" "+ tarea.getNombre());
